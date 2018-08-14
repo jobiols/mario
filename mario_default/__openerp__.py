@@ -20,7 +20,7 @@
 # -----------------------------------------------------------------------------------
 {
     'name': 'mario',
-    'version': '9.0.1.1',
+    'version': '8.0.1.1',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización Mario',
@@ -59,13 +59,13 @@ Customización Mario
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'mario', 'branch': '9.0'},
-        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
+        {'usr': 'jobiols', 'repo': 'mario', 'branch': '8.0'},
+        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '8.0'},
 
     ],
     'docker': [
         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
-        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
+        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '8.0'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.5'},
         {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'}
     ]    
