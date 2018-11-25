@@ -61,7 +61,7 @@ Customización Mario
     'port': '8069',
     'repos': [
         {'usr': 'jobiols', 'repo': 'mario', 'branch': '9.0'},
-        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0.'},
+        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
     ],
     'docker': [
         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
