@@ -34,6 +34,7 @@ Customización Mario
     'depends': [
         'base',
         'support_branding_jeosoft',
+        'ing_fiscal_tpv',
         
         # aplicaciones
         'sale', 'l10n_ar_aeroo_sale',  # ventas
@@ -57,11 +58,10 @@ Customización Mario
     'auto_install': False,
     'images': [],
 
-    'port': '8068',
+    'port': '8069',
     'repos': [
         {'usr': 'jobiols', 'repo': 'mario', 'branch': '9.0'},
-        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
-
+        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0.'},
     ],
     'docker': [
         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
@@ -69,7 +69,5 @@ Customización Mario
         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.5'},
         {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'}
     ]    
-    
-    
 }
 
