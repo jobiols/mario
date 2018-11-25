@@ -64,8 +64,8 @@ Customización Mario
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
     ],
     'docker': [
+        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0f'},
         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
-        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.5'},
         {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'}
     ]    
