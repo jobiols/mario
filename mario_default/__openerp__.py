@@ -34,8 +34,7 @@ Customización Mario
     'depends': [
         'base',
         'support_branding_jeosoft',
-        'ing_fiscal_tpv',
-        
+
         # aplicaciones
         'sale', 'l10n_ar_aeroo_sale',  # ventas
         'purchase', 'l10n_ar_aeroo_purchase',  # compras
